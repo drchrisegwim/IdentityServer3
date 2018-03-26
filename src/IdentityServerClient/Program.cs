@@ -26,7 +26,7 @@ namespace IdentityServerClient
             var client = new HttpClient();
             client.SetBearerToken(response.AccessToken);
 
-            Console.WriteLine(client.GetStringAsync("http://localhost:59377/test").Result);
+            Console.WriteLine(client.GetStringAsync("http://localhost:14869/test").Result);
         }
         static void Main(string[] args)
         {
